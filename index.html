@@ -1,0 +1,299 @@
+
+
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinkVision | Productos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>👓 CLOVE
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="productos">
+        <h2>Catálogo Femenino</h2>
+        <div class="productos">
+
+            <div class="producto">
+                <img src="https://koselig.mx/wp-content/uploads/2021/07/Adultos-Rosa-Claro-Translu%CC%81cido-1.jpg" alt"Lentes Rosados"
+                <h3> Lentes Rosados</h3>
+                <p>Elegante, ligero y muy femenino.</p>
+                <p class="precio">$45.00</p>
+                <button class="btn">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="https://econolentes.com.pe/cdn/shop/files/725125402781_1_e7da8fcf-0525-4f43-81c7-bd226cc176ea.png?v=1726635935" alt"Lentes Glam Dorados"
+                <h3>Lente Glam Dorado</h3>
+                <p>Perfecto para un look sofisticado.</p>
+                <p class="precio">$60.00</p>
+                <button class="btn">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img src="https://f.fcdn.app/imgs/96d684/symphorine.com.uy/sym/dbd9/original/catalogo/S21ES9-7-1/500x750/lentes-de-sol-jupiter-negro.jpg" alt"Lentes Fashion"
+                <h3>Lente Fashion</h3>
+                <p>Moderno y práctico para el día a día.</p>
+                <p class="precio">$50.00</p>
+                <button class="btn">Añadir al carrito</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2025 CLOVE cuidado de tus ojos
+    </footer>
+</body>
+</html>
+
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinkVision | Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>💌 Contáctanos</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="Contactos.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="contacto">
+        <h2>Envíanos un mensaje</h2>
+        <form>
+            <label>Nombre</label>
+            <input type="text" placeholder="Escribe tu nombre" required>
+
+            <label>Correo</label>
+            <input type="email" placeholder="ejemplo@gmail.com" required>
+
+            <label>¿Qué lente te interesa?</label>
+            <select>
+                <option>Rosa Pastel</option>
+                <option>Glam Dorado</option>
+                <option>Fashion</option>
+                <option>De Sol</option>
+            </select>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 PinkVision - Contáctanos con confianza 💗
+    </footer>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Lentes | SoftVision</title>
+
+    <style>
+        /* ----------------------------
+           ESTILOS GENERALES
+        ----------------------------- */
+        body {
+            margin: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background-color: #faf6f8;
+            color: #4b4343;
+        }
+
+        h1, h2, h3 {
+            color: #c87ca5;   /* Rosa elegante suave */
+            margin-top: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* ----------------------------
+           HEADER
+        ----------------------------- */
+        header {
+            background: linear-gradient(135deg, #e8cde3, #c87ca5);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ----------------------------
+           SECCIÓN INICIO
+        ----------------------------- */
+        .inicio {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .inicio p {
+            max-width: 600px;
+            margin: auto;
+            font-size: 1.1em;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #c87ca5;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-size: 1em;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #a35f84;
+        }
+
+        /* ----------------------------
+           PRODUCTOS
+        ----------------------------- */
+        #productos {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .producto {
+            background: #ffffff;
+            width: 260px;
+            padding: 15px;
+            border-radius: 18px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            transition: 0.3s;
+        }
+
+        .producto:hover {
+            transform: translateY(-6px);
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .precio {
+            color: #a35f84;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* ----------------------------
+           CONTACTO
+        ----------------------------- */
+        #contacto {
+            background: #f3e8ee;
+            padding: 40px 20px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        form {
+            max-width: 430px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            color: #a35f84;
+            margin-top: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #dabfd3;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            background-color: #faf4f7;
+        }
+
+        form button {
+            background-color: #c87ca5;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            border-radius: 15px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        form button:hover {
+            background-color: #a35f84;
+        }
+
+        /* ----------------------------
+           FOOTER
+        ----------------------------- */
+        footer {
+            background-color: #e2c7da;
+            text-align: center;
+            padding: 20px;
+            color: #4b4343;
+            margin-top: 30px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+    </style>
+</head>
+
+<body>
+</html>
+   
